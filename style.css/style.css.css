@@ -1,0 +1,379 @@
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+.home{
+background-image: url(drew-coffman-1872.jpg);
+background-size: 100%;
+background-position: center center;
+height: 650px;
+
+overflow: hidden;
+color:#fff;
+}
+.ontbar{
+    background: rebeccapurple;
+    display: flexbox !important;
+    top: 0;
+}
+div img{
+    margin: 15px;
+width:10%;
+color: #ccc;
+float: left;
+}
+div ul{
+    float: right;
+    margin: 10px 15px;
+    list-style-type: none;
+
+
+}
+
+.ul li{
+    float: left;
+    margin: 20px;
+}
+.ul li a{
+    text-decoration: none;
+    
+    color: #fff;
+}
+.clr{
+    clear: both;
+}
+.conthome{
+text-align: center;
+margin: 50px;
+}
+.home h2{
+    color: #ccc;
+    margin-bottom: 50px;
+}
+.home h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.home p{
+    color: #ccc;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+X
+.home button{
+    width:100px;
+    height: 60px;
+    margin-top: 30px;
+}
+.one{
+color:white;
+background-color:#8e7754 ;
+}
+.tow{
+    background-color:rgba(0, 0, 0, 0.3);
+    color: beige;
+    border: solid rgb(245, 245, 245) 3px;
+    margin: 10PX 10PX;
+}
+/* first adout */
+
+.abouttt{
+text-align: center;
+background-color: #8e7754;
+margin: auto auto;
+overflow: hidden;
+
+width: 100%;
+
+
+
+}
+
+
+.contact-about{
+float:right;
+width: 48%;
+text-align: center;
+}
+
+.iamg-about1{
+    width: 46%;
+    float: left;
+    padding: 30px 10px;
+    margin-right: 18px;
+}
+
+
+.abouth{
+    margin: 20px 0px;
+    color: #303030;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+.aboutp{
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #686868;
+    line-height: 2.5;
+    margin-bottom: 30px;
+}
+
+.aboutul{
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #686868;
+    FONT-SIZE: large;
+    width: 75%;
+    text-align: initial;
+    padding: 10px 150px 0px 0px;
+}
+
+.aboutul li{
+    margin-bottom: 20PX;
+    line-height: 1.5;
+    list-style:none;;
+    margin-bottom: 40px;
+}
+.aboutUL li i{
+    
+    margin-right: 5%;
+    float: left;
+    border: solid 5px rebeccapurple;
+    border: 0.5px solid #929292;
+    border-radius: 50%;
+    color:#8e7754 ;
+    padding: 2%;
+}
+
+.aboutUL li i P{
+float: right;
+}
+
+/* first-our-ofree */
+.our-offer{
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: auto auto;
+    border: 5px solid rgba( 0, 0, 0,adout ) ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+
+
+
+}
+.offer-contact{
+    width: 45%;
+    float: left;
+    text-align: cent;
+    
+}
+.offerh2{
+ margin: 15% 0% ;
+ font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 2.0;
+}
+.offerp{
+    margin-bottom: 10%;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 2.0;
+}
+
+.offer-img{
+    width: 48%;
+    float: right;
+}
+.offer-img img{
+    width: 97%;
+}
+/* first garly */
+.garly{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+
+    flex-wrap: wrap ;
+    
+}
+
+.garly-head{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+width: 100%;
+}
+.garlyp{
+    margin-top: 35px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 2.0;
+    color: #686868;
+}
+
+
+.garlyone{
+    width: 33%;
+    margin: 2px 2px
+    
+}
+.oneimg{
+    width: 98%;
+}
+.garlytwo{
+    width: 33%;
+    margin: 2px 2px
+}
+.garlythree{
+    width: 33%;
+    margin: 2px 2px
+}
+.garlyh3{
+    margin: 20px 0px ;
+    padding-top: 20px;
+}
+.garly P{
+    color: #686868;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 1.5;
+}
+/* first contact */
+.blog{
+    background-color:#f8f8f8 ;
+    height: 75%;
+
+}
+.blog-data{
+    width: 48%;
+    text-align: center;
+}
+.blogh2{
+    margin: 20px 20px;
+    padding-top: 40px;
+}
+.blogp{
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 2.0;
+    color: #686868;
+}
+.blogh3{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #686868;
+}
+
+.blogul{
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #686868;
+    float: left;
+}
+
+.blogli{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.blogli i{
+    border:5px solid #8e7754;;
+    border-radius: 50%;
+    background-color: #8e7754;
+    color: #fff;
+    margin-right: 15px;
+    width: 10%;
+    height: 10%;
+}
+
+.iframe{
+    float: right;
+padding: 20PX;
+}
+iframe{
+    height: 90%;
+}
+/* first contact */
+.contactt{
+background-color: #403d38;;
+}
+.contactt .about{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.About-head{
+    font-size:x-large;
+    color: #fff(255, 255, 255);
+    
+    
+}
+.about li{
+  margin: 20px;
+  text-align: left;
+  font-family: Alegreya Sans,sans-serif,monospace;
+  font-size: 18px;
+    color: #969696;
+}
+
+hr{
+border: 1px  solid rgba(0, 0, 0, 0.3);
+}
+.about i{
+    transform: rotate(90deg);
+    padding: 5px;
+}
+.about a{
+    text-decoration: none;
+    color: #969696;
+    
+}
+
+/* first finch */
+.finch{
+    background-color: #353330;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+.finch img{
+    position: absolute;
+    right: 45%;
+    width: 175px;
+
+  
+}
+.finch span{
+width: 400px;
+position: absolute;
+right: 37%;
+padding: 70px;
+}
+.finch ul{
+    width: 200px;
+    right: 50%;
+    /*  background-color: aqua; */
+    padding: 11px;
+    position: absolute;
+    right: 43%;
+    padding-top: 80px;
+    background-color: aqua;
+
+}
+.finch  ul li{
+    border: 1px 353330 solid;
+    border-radius: 50%;
+    margin: 7px;
+    color:353330 ;
+    background-color: #ccc  ;
+    float: left;
+    padding: 10PX;
+}
+.finch ul li i{
+    color: #353330 ;
+    width: 30px;
+}
